@@ -1,0 +1,39 @@
+.fp{
+       width: 100%;
+       max-width: 1025px;
+       display: flex;
+       justify-content: space-between;
+       gap: 20px;
+}
+.fpItem{
+       flex: 1;
+       gap: 10px;
+       display: flex;
+       flex-direction: column;
+}
+.fpImg{
+       width: 100%;
+       border-radius: 5px;
+}
+.fpName{
+       font-weight: bold;
+}
+.fpCity{
+       font-weight: 400;
+}
+.fpPrice{
+       font-weight: 600;
+}
+
+.fpRating>button{
+       background-color: #003580;
+       border: none;
+       color:#fff;
+       border-radius: 5px;
+       padding: 5px;
+       margin-right: 10px;
+       font-weight: bold;
+}
+.fpRating>span{
+       font-size:14px;
+}
